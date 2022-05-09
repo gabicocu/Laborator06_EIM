@@ -34,7 +34,7 @@ public class SingleThreadedServerActivity extends AppCompatActivity {
             if (Constants.SERVER_STOP.equals(charSequence.toString())) {
                 serverThread.stopServer();
                 Log.v(Constants.TAG, "Stopping server...");
-            }
+            } //
         }
 
         @Override
